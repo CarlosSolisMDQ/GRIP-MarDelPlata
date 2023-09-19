@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+  text-align: center;
+  font-family: "New Tegomin", serif;
+}
+
+
+#cuerpo {
+  background-color: black;
+}
+
+
+#navegador {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+nav ul li {
+  display: inline-block;
+  margin: 1em;
+}
+
+a {
+
+  font-size: xx-large;
+  text-decoration: none;
+  font: bold sans-serif;
+}
+
+#corto {
+  display: flex;
+  justify-content: center;
+}
+
+h5 {
+  background-color: white;
+  text-align: center;
+}
+p {
+  color: white;
+  font-size: 1rem;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  margin-top: 2em;
+  margin-bottom: 2rem;
+  font-size: 4rem;
+}
+
+.card {
+  display: inline-block;
+  
+  background-color: black;
+}
+
+
+#spot {
+  border-style: none;
+}
+#spoti {
+  font-size: 10rem;
+  margin-top: 1em;
+}
+
+ul {
+  margin: 0;
+}
+
+
+footer {
+  
+  margin-top: 1em;
+}
+footer h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  margin-bottom: 1em;
+  color: white;
+}
+
+.carousel img {
+  margin: auto;
+}
+
+.carousel {
+  object-fit: contain;
+  object-position: center;
+  overflow: hidden;
+  height: 25em;
+}
+
+#navegador nav ul li a:hover {
+  color: coral !important;
+}
+
+#cortometrajes {
+  font-size: 3em;
+  color: brown;
+}
+
+ul {
+  padding-left: 0 !important;
+}

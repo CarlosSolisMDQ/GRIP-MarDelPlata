@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GRIP</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/26c6d574de.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="cuerpo">
+    <audio hidden id="musica" controls loop>
+      <source src="opening.mp3" type="audio/mpeg" />
+    </audio>
+    <div class="container d-inline-flex justify-content-center">
+      <img
+        id="tush"
+        src="./Gif-tush.gif"
+        width="40%"
+        height="40%"
+        alt="Logotipo"
+      />
+    </div>
+
+    <div class="container-fluid" id="navegador">
+      <div class="d-flex justify-content-center">
+        <nav>
+          <ul>
+            <li>
+              <a
+                class=""
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseWidthExample"
+                aria-expanded="false"
+                aria-controls="collapseWidthExample"
+              >
+                ¿QUIENES SOMOS?
+              </a>
+              <div class="collapse collapse-vertical" id="collapseWidthExample">
+                <div
+                  class="card card-body"
+                  style="width: 50%; background-color: black; color: white"
+                >
+                  Somos un Grupo de Interés Paranormal oriundos de Mar del Plata,
+                  Buenos Aires Argentina, que nos dedicamos a realizar
+                  producciones audiovisuales sobre la temática. Fantasmas, Aliens,
+                  Brujas, Demonios y todo aquello que te haga poner la piel de
+                  gallina. Te invitamos a que visites nuestras redes para que
+                  disfrutes de nuestro contenido.
+                </div>
+              </div>
+            </li>
+            <li><a href="#cortometrajes">CORTOMETRAJES</a></li>
+            <li><a href="#podcast">PODCAST</a></li>
+            <li><a href="#padlet">PADLET</a></li>
+            <li><a href="#galeria">GALERIA</a></li>
+            <li><a href="#contacto">CONTACTO</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <h1 id="cortometrajes">Cortometrajes</h1>
+      <div id="corto" class="justify-content-center">
+        
+        <div class="row justify-content-center">
+          <div class="col-sm-4 justify-content-center">
+            <div class="card" style="width: 18rem">
+              <img src="archivo.jpg" class="card-img-top" alt="flyer archivo 19" />
+              <div class="card-body">
+                <h5 class="card-title">Archiv019</h5>
+                <p class="card-text">
+                  3 personas desconocidas están viviendo sus vidas con normalidad,
+                  pero todo cambia en un instante, cuando se despiertan en un espacio
+                  oscuro.
+                </p>
+                <a
+                  href="https://youtu.be/5qDG_Mk5d1A?si=PTHZn9DHGG0pYAfd"
+                  class="btn btn-primary"
+                  >VER</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem">
+              <img src="luz.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Luz del Bosque</h5>
+                <p class="card-text">
+                  Un grupo de jóvenes se proponen documentar un misterioso hecho que
+                  ocurrió en Chapadmalal, pero se dan cuenta de que fue una mala idea
+                  cuando comienzan a ser acechados.
+                </p>
+                <a
+                  href="https://youtu.be/RHDmAjIoWxU?si=MO1u7j1GEDZ9pnMX"
+                  class="btn btn-primary"
+                  >VER</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem">
+              <img src="extraños.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Extraños Habitantes</h5>
+                <p class="card-text">
+                  Unos nuevos vecinos muy particulares que vienen desde muy lejos,
+                  irrumpen la rutina de una familia aparentemente normal. Aquí no todo
+                  es lo que parece.
+                </p>
+                <a
+                  href="https://youtu.be/OECW0_0z8OY?si=7LrnIFP1hoVDi9Yr"
+                  class="btn btn-primary"
+                  >VER</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="pod">
+        <h1 id="podcast">Podcast</h1>
+        <p>
+          Escuchá historias paranormales reales, narradas en primera persona por
+          nuestros oyentes
+        </p>
+        <button id="spot">
+          <a
+            href="https://open.spotify.com/show/07Abt6P9enOfBksvED6aWa?si=460cee4316784e1f"
+          >
+            <i
+              id="spoti"
+              class="fa-brands fa-spotify fa-beat-fade fa-2xl"
+              style="color: #11b642"
+            ></i>
+          </a>
+        </button>
+      </div>
+    </div>
+
+    <div id="pad">
+      <h1 id="padlet">Padlet</h1>
+      <p>
+        Tenés una historia paranormal? Cuéntanos más en nuestro padlet y danos
+        la oportunidad de compartirla!
+      </p>
+      <button type="button" class="btn btn-outline-primary">
+        <a
+          href="https://padlet.com/gripmdq/grip-contamos-tu-historia-sjwwa16x2hgjnyti"
+        >
+          CONTAR HISTORIA</a
+        >
+      </button>
+    </div>
+
+    <h1 id="galeria">Galería</h1>
+
+    <div class="container d-flex justify-content-center">
+      <div class="w-50 h-50">
+        <div id="carouselExample" class="carousel slide" width="10rem">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./0.jpg"
+                class="w-100 h-100 d-block image-responsive"
+                alt="logo"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./2.jpg"
+                class="w-100 h-100 d-block image-responsive"
+                alt="reunion"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./1.jpg"
+                class="w-100 h-100 d-block image-responsive"
+                alt="clack"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./3.jpg"
+                class="w-100 h-100 d-block image-responsive"
+                alt="clack"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./4.jpg"
+                class="w-100 h-100 d-block image-responsive"
+                alt="clack"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./5.jpg"
+                class="w-100 h-100 d-block image-responsive"
+                alt="clack"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./7.jpg"
+                class="w-100 h-100 d-block image-responsive"
+                alt="clack"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./8.jpg"
+                class="w-100 h-100 d-block image-responsive"
+                alt="clack"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./9.jpg"
+                class="w-100 h-100 d-block image-responsive"
+                alt="clack"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./10.jpg"
+                class="w-100 h-100 d-block image-responsive"
+                alt="clack"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./11.jpg"
+                class="w-100 h-100 d-block image-responsive"
+                alt="clack"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./12.jpg"
+                class="w-100 h-100 d-block image-responsive"
+                alt="clack"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="13.jpg"
+                class="w-100 h-100 d-block image-responsive"
+                alt="clack"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./14.jpg"
+                class="w-100 h-100 d-block image-responsive"
+                alt="clack"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container flex-column justify-content-center text-center">
+      <ul class="pl-0">
+        <h1 id="contacto">Contacto</h1>
+        <li>
+          <i class="fa-brands fa-instagram fa-lg" style="color: #ffffff"> </i>
+          <p>grip.mdq</p>
+        </li>
+        <li>
+          <i class="fa-regular fa-envelope fa-lg" style="color: #ffffff"></i>
+          <p>grip.mdq@gmail.com</p>
+        </li>
+        <li>
+          <i class="fa-brands fa-whatsapp fa-lg" style="color: #ffffff"></i>  
+          <p>+549 2235600197</p>
+        </li>
+        <li>
+          <i class="fa-solid fa-location-dot fa-lg" style="color: #ffffff"></i>
+          <p>Mar del Plata, Buenos Aires, Argentina</p>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
